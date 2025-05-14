@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: php-app
+    name: qloapps
     env: docker
-    repo: https://github.com/tuusuario/tu-repo
-    branch: main
+    repo: https://github.com/Qloapps/QloApps
+    branch: develop
     plan: free
     dockerfilePath: ./Dockerfile
